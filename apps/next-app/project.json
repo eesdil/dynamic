@@ -63,6 +63,12 @@
       "options": {
         "lintFilePatterns": ["apps/next-app/**/*.{ts,tsx,js,jsx}"]
       }
+    },
+    "fail": {
+      "executor": "@myorg/plugin:build",
+      "options": {
+        "buildTarget": "build:production"
+      }
     }
   },
   "tags": []
